@@ -18,10 +18,10 @@ The system classifies user utterances with a decision tree, assigning a dialog a
 
 MAIN PROGRAM: dialog_system.py
 
- - A working dialog system interface implementing a state transition function (dialog_system.py, line 487)
- - As component of the dialog system: an algorithm identifying user preference statements (dialog_system.py, line 697)
- - As component of the dialog system: a lookup function that retrieves suitable restaurant suggestions from the CSV database (dialog_system.py, line 859) Part 1c
- - An implementation of dialog model configurability (dialog_system, line 13)
+ - A working dialog system interface implementing a state transition function (dialog_system.py, line 547)
+ - As component of the dialog system: an algorithm identifying user preference statements (dialog_system.py, line 757)
+ - As component of the dialog system: a lookup function that retrieves suitable restaurant suggestions from the CSV database (dialog_system.py, line 919) 
+ - An implementation of dialog model configurability (dialog_system, line 15)
  
 Further details on the dialog system can be found in Dialog_System_Report.pdf.
  
@@ -30,8 +30,8 @@ EXPERIMENT PROGRAM: dialog_system_experiment.py
  - This file contains a version of the dialog system used to run an experiment on the effects of text-to speech on user satisfaction. Further details on the experiment can be found in Experiment_Report.pdf.
 
 ADDITIONAL CODE
- - A Python program that reads the source data and displays the dialogs one by one in human-readable format, using the Enter key to proceed to the next dialog (dialog_printer.py)
- - Python code to produce a text file with one utterance per line in the format dialog_act utterance_content (dialog_system.py, line 389) Part 1b - Python code that implements a keyword matching baseline and a dialog act distribution baseline (dialog_system.py, line 187, 235)
+ - Python code to produce a log text file containing the dialogs with the user (dialog_system.py, line 433) 
+ - Python code that implements a keyword matching baseline and a dialog act distribution baseline (dialog_system.py, line 228, 276)
 
 
 ## Configuration info:
