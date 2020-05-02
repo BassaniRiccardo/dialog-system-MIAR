@@ -43,6 +43,7 @@ The main program runs by default in "user mode" (i.e. showing only the dialog). 
 
 This parameter and the dialog configurations can be modified by changing the value of the relative boolean global variables at the top of the code.
 
-Text-to-speech is disabled by default and can be enabled like the other features if it is supported on the device where the program is executed (gtts was used to implement the feature).
+Text-to-speech is disabled by default in the main program and can be enabled like the other features if it is supported on the device where the program is executed (gtts was used to implement the feature).
+Text-to-speech is enabled in the code for the experiment (the dialog system will interact with the user alternatively with/without text-to-speech).
 
 
