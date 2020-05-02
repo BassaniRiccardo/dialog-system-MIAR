@@ -23,11 +23,11 @@ MAIN PROGRAM: dialog_system.py
  - As component of the dialog system: a lookup function that retrieves suitable restaurant suggestions from the CSV database (dialog_system.py, line 859) Part 1c
  - An implementation of dialog model configurability (dialog_system, line 13)
  
-Further details on the dialog system can be found in Dialog_System_Report.pdf
+Further details on the dialog system can be found in Dialog_System_Report.pdf.
  
 EXPERIMENT PROGRAM: dialog_system_experiment.py
  
- - This file contains a version of the dialog system used to run an experiment on the effects of text-to speech on user satisfaction. Further details on the experiment can be found in Experiment_Report.pdf
+ - This file contains a version of the dialog system used to run an experiment on the effects of text-to speech on user satisfaction. Further details on the experiment can be found in Experiment_Report.pdf.
 
 ADDITIONAL CODE
  - A Python program that reads the source data and displays the dialogs one by one in human-readable format, using the Enter key to proceed to the next dialog (dialog_printer.py)
