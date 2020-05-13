@@ -4,7 +4,7 @@
 ## Nov 2019
 
 - ###   Riccardo Bassani ([@BassaniRiccardo](https://github.com/BassaniRiccardo))
-- ###   Samuel Meyer 
+- ###   Samuel Meyer  ([@VolJay](https://github.com/VolJay))
 - ###   Geanne Barkmeijer 
 - ###   Wiebe de Vries  
 
